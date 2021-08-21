@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    margin: 0px;
+    background-image: url('FARMERS.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    /* background: none; */
+    color: rgb(7, 241, 19);
+    opacity: 100%;
+    font-size: 30px;
+    /* margin-top: 1px; */
+}
+.donate{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgb(99, 22, 22);
+    border: 5px solid rgb(157, 160, 152) ;
+    font-size: 50px;
+    margin: 5px;
+}
+.msg{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    font-size: 25px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+img{
+    height: 40vh;
+}
+.donBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
